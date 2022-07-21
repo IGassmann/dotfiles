@@ -10,9 +10,6 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until `setup.sh` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-echo "Installing XCode command line tools..."
-xcode-select --install
-
 echo "Installing Homebrew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -23,7 +20,7 @@ echo "Updating Homebrew recipes..."
 brew update
 
 echo "Installing Rosetta..."
-sudo softwareupdate --install-rosetta
+sudo softwareupdate --install-rosetta --agree-to-license
 
 echo "Installing Brewfile packages..."
 brew bundle --file ~/.dotfiles/Brewfile
