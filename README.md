@@ -1,6 +1,6 @@
 # IGassmann's Dotfiles
 
-This is greatly inspired from [Dries Vints](https://github.com/driesvints/dotfiles)'s and [Christoph Rumpel](https://github.com/christophrumpel/dotfiles) dotfiles.
+IGassmann's macOS configuration with Brewfile, Mackup, and repository management
 
 ## Backup Checklist
 
@@ -10,7 +10,8 @@ This is greatly inspired from [Dries Vints](https://github.com/driesvints/dotfil
 - Did you remember to save all important documents from non-cloud directories?
 - Did you export and saved any cryptocurrency wallet?
 - Did you export and saved your GPG keys?
-- Did you save a list of your installed Setapp apps?
+- Did you export and saved Raycast preferences?
+- Did you mark your installed Setapp apps as favorites?
 - Did you save a list of apps that need to be installed manually?
 - Did you update [mackup](https://github.com/lra/mackup) to the latest version and ran `mackup backup`?
 - Did you backup all your files with Backblaze?
@@ -36,14 +37,14 @@ This is greatly inspired from [Dries Vints](https://github.com/driesvints/dotfil
 	```zsh
     yarn global add actions-cli all-the-package-names dts-gen install-peerdeps node-dev ts-node ts-node-dev vercel
     ``` 
-8. Restart your computer to finalize the process
-
-## Additional Steps
-
-- Install Setapp favorited apps
-- Install apps manually
+8. Import GPG keys
+9. Sync WebStorm settings
+10. Sync Google Chrome preferences
+11. Import Raycast preferences
+12. Install Setapp apps that are in favorites
+13. Import cryptocurrency wallets
+14. Install following apps manually
     - Logi Options+
     - Rize
     - Amphetamine Enhancer
-- Import GPG keys
-- Import cryptocurrency wallets
+12. Restart your computer to finalize the process

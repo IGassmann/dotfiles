@@ -15,4 +15,3 @@ git clone git@github.com:IGassmann/web-img-optimizer.git $IGASSMANN_DIR/web-img-
 git clone git@github.com:IGassmann/remark-directive-rehype $IGASSMANN_DIR/remark-directive-rehype
 git clone git@github.com:IGassmann/nodejs-api.git $IGASSMANN_DIR/nodejs-api
 git clone git@github.com:IGassmann/web-app-template.git $IGASSMANN_DIR/web-app-template
-git clone git@github.com:IGassmann/dotfiles $IGASSMANN_DIR/dotfiles
