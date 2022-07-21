@@ -47,4 +47,5 @@ IGassmann's macOS configuration with Brewfile, Mackup, and repository management
     - Logi Options+
     - Rize
     - Amphetamine Enhancer
-12. Restart your computer to finalize the process
+15. Sign into Slack workspaces
+16. Restart your computer to finalize the process
