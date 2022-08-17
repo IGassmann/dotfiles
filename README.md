@@ -21,7 +21,7 @@ IGassmann's macOS configuration with Brewfile, Mackup, and repository management
 1. Update macOS to the latest version
 2. Clone this repo to `~/.dotfiles` with (you will be asked to download XCode command line tools):
     ```zsh
-    git clone git@github.com:IGassmann/dotfiles.git ~/.dotfiles
+    git clone https://github.com/IGassmann/dotfiles.git ~/.dotfiles
     ``` 
 3. Run bootstrap script
     ```zsh
@@ -33,19 +33,20 @@ IGassmann's macOS configuration with Brewfile, Mackup, and repository management
    ```zsh
     ~/.dotfiles/clone_repos.sh
     ```
-7. Install Yarn global packages
+7. Set up Node.js with [nodenv](https://github.com/nodenv/nodenv)
+8. Install Yarn global packages
 	```zsh
     yarn global add actions-cli all-the-package-names dts-gen install-peerdeps node-dev ts-node ts-node-dev vercel
     ``` 
-8. Import GPG keys
-9. Sync WebStorm settings
-10. Sync Google Chrome preferences
-11. Import Raycast preferences
-12. Install Setapp apps that are in favorites
-13. Import cryptocurrency wallets
-14. Install following apps manually
+9. Import GPG keys
+10. Sync WebStorm settings
+11. Sync Google Chrome preferences
+12. Import Raycast preferences
+13. Install Setapp apps that are in favorites
+14. Import cryptocurrency wallets
+15. Install following apps manually
     - Logi Options+
     - Rize
     - Amphetamine Enhancer
-15. Sign into Slack workspaces
-16. Restart your computer to finalize the process
+16. Sign into Slack workspaces
+17. Restart your computer to finalize the process
